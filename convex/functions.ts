@@ -2,6 +2,6 @@ import { query } from "./_generated/server";
 
 export const listTodos = query({
     handler: async (ctx) => {
-        return await ctx.db.query("todos").collect();
+        return await ctx.db.query("todos").collect(); //pulls a list (all) of todos from database
     }
 });
