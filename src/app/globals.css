@@ -2,4 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Shimmering Animation */
+@keyframes shimmer {
+    0% {
+      background-position: -500px 0;
+    }
+    100% {
+      background-position: 500px 0;
+    }
+  }
+  
+  .shimmer-animation {
+    background: linear-gradient(
+      to right,
+      #d1e9ff 0%,
+      #a0d7ff 50%,
+      #d1e9ff 100%
+    );
+    background-size: 1000px 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 2s infinite linear;
+  }
