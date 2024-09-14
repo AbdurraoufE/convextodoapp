@@ -1,3 +1,7 @@
 # 🚀 [Click to checkout the live website](https://convextodoapp-rcv6.vercel.app/) 🚀
 
-# READ.ME Coming Soon...
+# Using
+- JavaScript/TypeScript
+- Convex Database
+- Clerk API
+- OpenRouter LLM
