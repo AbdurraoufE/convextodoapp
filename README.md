@@ -1,6 +1,6 @@
 # 🚀 [Click to checkout the live website](https://convextodoapp-rcv6.vercel.app/) 🚀
 
-# What was used?
+# What is used
 - JavaScript/TypeScript 
 - Convex Database
 - Clerk API
